@@ -6,7 +6,9 @@
 // we're setting lower bound to middle + 1,
 // else if the element is lower than the value at the current index, then 
 // we're setting the upper bound to the middle - 1,
-// and so on until the lower bound is greather
+// and so on until the middle element is equal to one we're searching for, 
+// if we're out of elements in the array, return false, as the element we
+// are searching for is not found. 
 
 /* x = 4
 	* lo = arr[0]
