@@ -1,6 +1,8 @@
 // Linear Search 
 
-// The simplest searching algorithm performing sequential searching, starting from the one end and go through each element of the list, until the desired element in meet. 
+// The simplest searching algorithm performing sequential searching, 
+// starting from the one end and go through each element of the list, 
+// until the desired element in meet.
 
 #include <stdio.h>
 
