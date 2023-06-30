@@ -32,17 +32,17 @@
 bool binary_search(int a[], int size, int n);
 
 int main() {
-			int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-		 int size = sizeof(arr) / sizeof(arr[0]);
+				int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+				int size = sizeof(arr) / sizeof(arr[0]);
 
-		 bool is_value_found = binary_search(arr, size, 10);	
-			printf("%s", is_value_found ? "true": "false");
+				bool is_value_found = binary_search(arr, size, 10);	
+				printf("%s", is_value_found ? "true": "false");
 }
 
 bool binary_search(int a[], int size, int n) {
 				int lo = 0;
 				int hi = size - 1;
-					
+
 				while(lo <= hi) {
 								printf("lo: %i, hi: %i\n", lo, hi);
 								int mid = lo + (hi - lo) / 2;
@@ -51,11 +51,11 @@ bool binary_search(int a[], int size, int n) {
 								}	
 								else if(a[mid] < n) {
 												lo = mid + 1;		
-				   	}
+								}
 								else {
 												hi = mid - 1;	
 								}
 				}		
-				
+
 				return false;
 }
