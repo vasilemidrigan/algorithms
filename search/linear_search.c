@@ -12,7 +12,7 @@ int main(void) {
 				
 				int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 				int length = sizeof(arr) / sizeof(arr[0]);
-
+				
 				int is_value_found = linear_search(arr, length, 8);
 }
 
